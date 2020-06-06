@@ -27,3 +27,155 @@
   grid-column: 1 / 6;
   grid-row: 3 / 4;
 }
+
+.nunito {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.bg-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  padding: 10px;
+  position: fixed;
+  width: -webkit-fill-available;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item-nav {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.item-active-nav {
+  color: #ffffff;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-style: none none solid none;
+  border-color: #ffffff;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.btn {
+  margin: 2px;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #17a2b8;
+  background-color: #17a2b8;
+  cursor: pointer;
+}
+
+.btn:hover {
+  margin: 2px;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #167786f5;
+  background-color: #167786f5;
+  cursor: pointer;
+}
+
+.btn-icon {
+  color: #ffffff;
+}
+
+.bg-main {
+  margin-top: 55px;
+}
+
+.bg-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.bg-section-alt {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #6c757d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.bg-img {
+  width: 40%;
+  height: 720px;
+  border-radius: 10px;
+}
+
+.bg-sub-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  color: #343a40;
+  padding: 10px 5px;
+}
+
+.bg-sub-section-alt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  color: #ffffff;
+  padding: 10px 5px;
+}
+
+.text-base {
+  size: 16px;
+}
+
+.bg-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn-up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #007bff;
+  padding: 15px;
+  position: fixed;
+  border-radius: 50%;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.btn-up-hide {
+  display: none;
+}
+
+.icon-up-btn {
+  size: 16px;
+  font-weight: 900;
+  color: #ffffff;
+}

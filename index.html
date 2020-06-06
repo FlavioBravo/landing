@@ -7,14 +7,82 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
       rel="stylesheet"
     />
+    <script src="https://use.fontawesome.com/f21e5638ba.js"></script>
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Landing Page</title>
   </head>
   <body>
     <main class="container">
-      <header class="navbar-container"></header>
-      <div class="main-container"></div>
-      <footer class="footer-container"></footer>
+      <header class="navbar-container">
+        <nav class="bg-nav nunito">
+          <div class="items" id="menu">
+            <a class="item-active-nav" href="#section1" id="sect1">Section 1</a>
+            <a class="item-nav" href="#section2" id="sect2">Section 2</a>
+            <a class="item-nav" href="#section3" id="sect3">Section 3</a>
+          </div>
+          <div class="options">
+            <button type="button" class="btn" id="add">
+              <i class="fa fa-plus btn-icon" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="btn" id="remove">
+              <i class="fa fa-minus btn-icon" aria-hidden="true"></i>
+            </button>
+          </div>
+        </nav>
+      </header>
+      <div class="main-container bg-main" id="main-container">
+        <section id="section1" class="bg-section">
+          <img src="./img/view1.jpg" alt="view number 1" class="bg-img" />
+          <div class="bg-sub-section nunito">
+            <h2>Section number 1</h2>
+            <p class="text-base">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, amet
+              nam. Debitis non aliquid praesentium reprehenderit repellat error
+              quaerat libero quos ab? Fugit possimus eos natus totam ad atque
+              modi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Incidunt non perferendis, ad beatae eaque id similique repellat
+              perspiciatis. Cupiditate laboriosam libero autem earum, totam
+              assumenda ipsa soluta recusandae ipsam voluptatibus!
+            </p>
+          </div>
+        </section>
+        <section id="section2" class="bg-section-alt">
+          <img src="./img/view2.jpg" alt="view number 1" class="bg-img" />
+          <div class="bg-sub-section-alt nunito">
+            <h2>Section number 2</h2>
+            <p class="text-base">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, amet
+              nam. Debitis non aliquid praesentium reprehenderit repellat error
+              quaerat libero quos ab? Fugit possimus eos natus totam ad atque
+              modi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Incidunt non perferendis, ad beatae eaque id similique repellat
+              perspiciatis. Cupiditate laboriosam libero autem earum, totam
+              assumenda ipsa soluta recusandae ipsam voluptatibus!
+            </p>
+          </div>
+        </section>
+        <section id="section3" class="bg-section">
+          <img src="./img/view3.jpg" alt="view number 1" class="bg-img" />
+          <div class="bg-sub-section nunito">
+            <h2>Section number 3</h2>
+            <p class="text-base">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, amet
+              nam. Debitis non aliquid praesentium reprehenderit repellat error
+              quaerat libero quos ab? Fugit possimus eos natus totam ad atque
+              modi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Incidunt non perferendis, ad beatae eaque id similique repellat
+              perspiciatis. Cupiditate laboriosam libero autem earum, totam
+              assumenda ipsa soluta recusandae ipsam voluptatibus!
+            </p>
+          </div>
+        </section>
+      </div>
+      <footer class="footer-container bg-footer nunito">
+        <p class="text-base">Copyright 2020 - Second Project of Udacity</p>
+      </footer>
+      <button type="button" class="btn-up-hide" id="topButton">
+        <i class="fa fa-long-arrow-up icon-up-btn" aria-hidden="true"></i>
+      </button>
     </main>
     <script defer src="./js/app.js"></script>
   </body>
