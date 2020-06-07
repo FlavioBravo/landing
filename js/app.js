@@ -8,6 +8,13 @@ const addActiveClass = (evt) => {
       let element = document.getElementById(item.id);
       element.classList.remove("item-nav");
       element.classList.add("item-active-nav");
+
+      const sectionId = item.hash.split("#");
+      const section = document.getElementById(sectionId[1]);
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+      evt.preventDefault();
     } else {
       let element = document.getElementById(item.id);
       element.classList.remove("item-active-nav");
